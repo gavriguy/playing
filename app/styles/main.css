@@ -1,0 +1,41 @@
+body {
+ background: url(https://wunderlist2.s3.amazonaws.com/backgrounds/33bccbbbf821bb3972a4107812a691afef923836/2048/07.jpg);
+  background-size:cover;
+  background-position: top center;
+  background-attachment:fixed;
+  padding-top: 70px; 
+ 
+}
+.sidebar-container {
+	
+	position: fixed;
+	right: 20px;
+	display: block;
+	top:72px;
+	bottom: 0;
+	padding: 20px;
+	overflow-y: auto;
+	overflow-x:hidden;
+	
+
+}
+.sidebar {
+		
+}
+
+
+.activecell {
+	background: #d9edf7;
+}
+
+.well {
+	opacity: 0.8;
+}
+
+.sidebar-header {
+	position: fixed;
+	background: red;
+	width: 20%;
+
+	overflow: hidden;
+}
